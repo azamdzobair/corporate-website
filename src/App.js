@@ -5,7 +5,7 @@ import BottomHeader from './Components/BottomHeader/BottomHeader';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* <TopHeader></TopHeader> */}
       <BottomHeader></BottomHeader>
 
