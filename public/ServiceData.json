@@ -1,31 +1,31 @@
 [
     {
         "id": 1,
-        "icon": "icon/diagram.png",
+        "icon": "img/diagram.png",
         "title": "Business Stratagy",
         "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad"
     },
     {
         "id": 2,
-        "icon": "icon/code-optimisation.png",
+        "icon": "img/code-optimisation.png",
         "title": "App Development",
         "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad"
     },
     {
         "id": 3,
-        "icon": "icon/seo.png",
+        "icon": "img/seo.png",
         "title": "SEO Optimisation",
         "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad"
     },
     {
         "id": 4,
-        "icon": "icon/technical-support.png",
+        "icon": "img/technical-support.png",
         "title": "Social Media Support",
         "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad"
     },
     {
         "id": 5,
-        "icon": "icon/user-experience.png",
+        "icon": "img/user-experience.png",
         "title": "UX Design",
         "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad"
     }

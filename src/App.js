@@ -5,6 +5,7 @@ import BottomHeader from './Components/BottomHeader/BottomHeader';
 import BannerHeader from './Components/BannerHeader/BannerHeader';
 import About from './Components/About/About';
 import Service from './Components/Service/Service';
+import Members from './Components/Members/Members';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BannerHeader></BannerHeader>
       <About></About>
       <Service></Service>
+      <Members></Members>
 
     </div>
   );
