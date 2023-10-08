@@ -7,6 +7,7 @@ import About from './Components/About/About';
 import Service from './Components/Service/Service';
 import Members from './Components/Members/Members';
 import Blog from './Components/Blog/Blog';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <Service></Service>
       <Members></Members>
       <Blog></Blog>
+      <Footer></Footer>
+
 
     </div>
   );
