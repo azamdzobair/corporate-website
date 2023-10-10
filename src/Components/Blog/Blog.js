@@ -31,19 +31,21 @@ const Blog = () => {
 
     ];
     return (
-        <div className='my-20'>
-            <div>
-                <h1 className='text-gray-800 text-4xl text-center font-bold mb-5'>Introduction About Our Blog </h1>
-                <p className='text-gray-800 text-center mx-60'>Aenean purus esse habitant facilisi rhoncus metus aut sodales voluptas veniam aute, incidunt semper iusto? Praesent! Lobortis? Tellus ipsa. Laborum. Platea, nec! Ullam repellat aenean feugiat, tempor.</p>
-            </div>
+        <div className='mt-24'>
+            <div className='mx-auto px-24'>
+                <div>
+                    <h1 className='text-gray-800 text-4xl text-center font-bold mb-5'>Introduction About Our Blog </h1>
+                    <p className='text-gray-800 text-center mx-60'>Aenean purus esse habitant facilisi rhoncus metus aut sodales voluptas veniam aute, incidunt semper iusto? Praesent! Lobortis? Tellus ipsa. Laborum. Platea, nec! Ullam repellat aenean feugiat, tempor.</p>
+                </div>
 
-            <div className=' flex my-16 justify-center'>
+                <div className=' flex justify-center my-16 '>
 
-                {
-                    BlogCardDatas.map(BlogCardData => <BlogCard key={BlogCardData.id} BlogCardData={BlogCardData}></BlogCard>)
+                    {
+                        BlogCardDatas.map(BlogCardData => <BlogCard key={BlogCardData.id} BlogCardData={BlogCardData}></BlogCard>)
 
-                }
+                    }
 
+                </div>
             </div>
 
             <Quote></Quote>

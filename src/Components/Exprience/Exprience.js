@@ -6,11 +6,11 @@ import img02 from '../../image/img02.jpg';
 
 const Exprience = () => {
     return (
-        <div className='mb-10 '>
+        <div className='bg-gray-900 bg-opacity-75 flex justify-center  w-full h-[550px] mt-16 '>
 
             {/* <img className='mr-6 relative' src={img07} /> */}
 
-            <div className=' bg-gray-900 bg-opacity-75  w-full h-[550px] flex items-center px-10 '>
+            <div className='  flex items-center  mx-auto px-24 '>
                 <div className='w-1/2 '>
                     <div className='flex mb-4'>
                         <div className='bg-orange-500 w-56 h-56 flex items-center mr-4 '>

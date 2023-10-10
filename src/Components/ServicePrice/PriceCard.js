@@ -4,7 +4,7 @@ import Feature from './Feature';
 const PriceCard = ({ priceData }) => {
     const { features } = priceData;
     return (
-        <div className=' bg-blue-500 rounded-md p-3 m-3 '>
+        <div className=' bg-blue-500 rounded-md p-3 '>
 
             <p>
                 <span className='text-6xl font-bold text-white'>{priceData.price}</span>

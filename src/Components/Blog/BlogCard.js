@@ -2,7 +2,7 @@ import React from 'react';
 
 const BlogCard = ({ BlogCardData }) => {
     return (
-        <div className='mr-6 w-80 mb-10'>
+        <div className=' w-80 mb-10'>
             <div>
                 <img className='mb-4' src={BlogCardData.img} />
 

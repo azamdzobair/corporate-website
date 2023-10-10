@@ -40,59 +40,61 @@ const Footer = () => {
 
     return (
         <div >
-            <div className='bg-gray-700 w-full p-16 flex items-center'>
-                <div className='bg-orange-500 bg-o w-80 h-80 mr-14'>
-                    <h1>hello</h1>
-                </div>
-                <div className=''>
-                    <h1 className='mb-4 text-white text-2xl font-bold'>Usefull Link</h1>
+            <div className='bg-gray-700 w-full  '>
+                <div className='flex items-center mx-auto px-24 p-16'>
+                    <div className='bg-orange-500 bg-o w-80 h-80 mr-14'>
+                        <h1>hello</h1>
+                    </div>
                     <div className=''>
-                        {
-                            Datas.map(Data => <UseFullLinks key={Data.id} Data={Data}></UseFullLinks>)
+                        <h1 className='mb-4 text-white text-2xl font-bold'>Usefull Link</h1>
+                        <div className=''>
+                            {
+                                Datas.map(Data => <UseFullLinks key={Data.id} Data={Data}></UseFullLinks>)
 
 
-                        }
-                    </div>
+                            }
+                        </div>
 
 
-
-                </div>
-                <div className='ml-20'>
-                    <h1 className='mb-4 text-white text-2xl font-bold'>Resources</h1>
-                    <div className=''>
-                        {
-                            Datas.map(Data => <Resources key={Data.id} Data={Data}></Resources>)
-
-
-                        }
 
                     </div>
-                </div>
-                <div>
-                    <h1 className='mb-4 text-white text-2xl font-bold'>Subscribe Newsletter</h1>
-                    <p className='mb-2 text-white'>Sem quidem convallis ipsa iusto tempore sapiente, corporis! Sagittis etiam.</p>
-                    <input className='mb-2 w-72 h-12' type="email" placeholder="user@eamil" name="usereamil" value=""></input>
-                    <p className='mb-2 text-white'>Follow on social media :</p>
+                    <div className='ml-24'>
+                        <h1 className='mb-4 text-white text-2xl font-bold'>Resources</h1>
+                        <div className=''>
+                            {
+                                Datas.map(Data => <Resources key={Data.id} Data={Data}></Resources>)
 
-                    <div className='flex '>
-                        <div className='bg-orange-500 hover:bg-orange-700 duration-300 ease-in w-8 h-8 rounded-full flex justify-center items-center mr-2 '>
-                            <FontAwesomeIcon className='text-white text-1xl' icon={faFacebookF} />
+
+                            }
+
                         </div>
-                        <div className='bg-orange-500 hover:bg-orange-700 duration-300 ease-in w-8 h-8 rounded-full flex justify-center items-center mr-2 '>
-                            <FontAwesomeIcon className='text-white text-1xl' icon={faTwitter} />
+                    </div>
+                    <div className='ml-24'>
+                        <h1 className='mb-4 text-white text-2xl font-bold'>Subscribe Newsletter</h1>
+                        <p className='mb-2 text-white'>Sem quidem convallis ipsa iusto tempore <br /> sapiente, corporis! Sagittis etiam.</p>
+                        <input className='mb-2 w-80 h-14' type="email" placeholder="user@eamil" name="usereamil" value=""></input>
+                        <p className='mb-2 text-white'>Follow on social media :</p>
+
+                        <div className='flex '>
+                            <div className='bg-orange-500 hover:bg-orange-700 duration-300 ease-in w-8 h-8 rounded-full flex justify-center items-center mr-2 '>
+                                <FontAwesomeIcon className='text-white text-1xl' icon={faFacebookF} />
+                            </div>
+                            <div className='bg-orange-500 hover:bg-orange-700 duration-300 ease-in w-8 h-8 rounded-full flex justify-center items-center mr-2 '>
+                                <FontAwesomeIcon className='text-white text-1xl' icon={faTwitter} />
+                            </div>
+                            <div className='bg-orange-500 hover:bg-orange-700 duration-300 ease-in w-8 h-8 rounded-full flex justify-center items-center mr-2 '>
+                                <FontAwesomeIcon className='text-white text-1xl' icon={faInstagram} />
+                            </div>
+                            <div className='bg-orange-500 hover:bg-orange-700 duration-300 ease-in w-8 h-8 rounded-full flex justify-center items-center '>
+                                <FontAwesomeIcon className='text-white text-1xl' icon={faYoutube} />
+                            </div>
+
                         </div>
-                        <div className='bg-orange-500 hover:bg-orange-700 duration-300 ease-in w-8 h-8 rounded-full flex justify-center items-center mr-2 '>
-                            <FontAwesomeIcon className='text-white text-1xl' icon={faInstagram} />
-                        </div>
-                        <div className='bg-orange-500 hover:bg-orange-700 duration-300 ease-in w-8 h-8 rounded-full flex justify-center items-center '>
-                            <FontAwesomeIcon className='text-white text-1xl' icon={faYoutube} />
-                        </div>
+
+
+
 
                     </div>
-
-
-
-
                 </div>
 
             </div>
