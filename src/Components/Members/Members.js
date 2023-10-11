@@ -17,7 +17,7 @@ const Members = () => {
                     <p className='text-center text-gray-800 mx-60'>Aenean purus esse habitant facilisi rhoncus metus aut sodales voluptas veniam aute, incidunt semper iusto? Praesent! Lobortis? Tellus ipsa. Laborum. Platea, nec! Ullam repellat aenean feugiat, tempor.</p>
 
                 </div>
-                <div className='flex mt-16'>
+                <div className='flex  mt-16'>
 
                     {
                         membersCardDatas.map(membersCardData => <MembersCards key={membersCardData.id}

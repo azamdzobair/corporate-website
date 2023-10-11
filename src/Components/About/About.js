@@ -16,7 +16,7 @@ const About = () => {
                 </div>
                 <div className='mt-16 flex items-center  '>
                     <img src={img02} />
-                    <div className='bg-green-500 w-full p-10'>
+                    <div className='bg-amber-500 w-full p-10'>
                         <div className=' flex items-center'>
                             <img className='rounded-full ring-4 ring-white w-28 h-28 ' src={img03} />
                             <div className='ml-6'>
@@ -30,14 +30,14 @@ const About = () => {
                     </div>
                 </div>
                 <div className='flex justify-center mt-16'>
-                    <button className='bg-orange-500 py-2 px-4 text-lg font-medium text-white hover:bg-orange-700 duration-500 ease-in '>More About Us</button>
+                    <button className='bg-amber-500 py-2 px-4 text-lg font-medium text-white hover:bg-orange-700 duration-500 ease-in '>More About Us</button>
                 </div>
             </div>
             <div className='flex  mt-24'>
 
                 <div className='w-1/2 relative '>
                     <img className='absolute' src={img04} />
-                    <div className=' bg-gray-900 bg-opacity-50 w-full h-[450px] top-0 left-0 absolute py-12 px-24'>
+                    <div className=' bg-gray-900 bg-opacity-50 w-full h-[450px]  absolute py-12 px-24'>
                         <div className='mb-6 text-white'>
                             <h1 className='text-4xl  font-bold mb-3'>Hire Us For Any Types Of Business Related Services !</h1>
                             <p>Hic voluptatibus asperiores animi vero. Felis ipsum. Gravida aspernatur adipisci mus adipisci ipsam etiam, repellendus aptent aliquam quas, aptent ab curabitu.</p>
@@ -67,7 +67,7 @@ const About = () => {
 
                             </div>
                         </div>
-                        <button className='bg-orange-500 py-2 px-4 text-lg font-medium text-white hover:bg-orange-700 duration-500 ease-in '>HIRE US NOW!</button>
+                        <button className='bg-amber-500 py-2 px-4 text-lg font-medium text-white hover:bg-orange-700 duration-500 ease-in '>HIRE US NOW!</button>
                     </div>
 
 
@@ -79,7 +79,7 @@ const About = () => {
                         <div className='bg-white w-48 h-40'>
 
                         </div>
-                        <div className='bg-orange-500 w-48 h-40'>
+                        <div className='bg-amber-500 w-48 h-40'>
 
                         </div>
                     </div>

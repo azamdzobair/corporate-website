@@ -5,7 +5,7 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons';
 const ShowModel = ({ closeModel }) => {
     return (
         <div className='w-full h-full fixed duration-500 ease-in right-0 top-0 overflow-hidden flex items-center justify-end  bg-black bg-opacity-50   z-10'>
-            <div className='bg-orange-500  relative p-4 top-28 w-80 h-full overflow-x-hidden  '>
+            <div className='bg-amber-500  relative p-4 top-28 w-80 h-full overflow-x-hidden  '>
                 <div onClick={closeModel}>
                     <FontAwesomeIcon icon={faXmark} className='w-7 h-7' />
                 </div>

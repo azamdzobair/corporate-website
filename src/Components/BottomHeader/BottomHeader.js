@@ -18,7 +18,7 @@ const BottomHeader = () => {
         { id: 6, name: 'CONTACT', path: '/CONTACT' },
     ]
     return (
-        <nav className='bg-purple-700 h-16 '>
+        <nav className='bg-indigo-950 h-16 '>
             <div className=' mx-auto px-24 flex items-center justify-between'>
                 <img className='w-14 h-12' src={logo1} />
 
@@ -35,7 +35,7 @@ const BottomHeader = () => {
 
 
 
-                <ul className={`bg-purple-700 w-full md:w-0  text-center py-2 md:flex justify-center md:static absolute duration-500 ease-in ${open ? 'top-12' : "top-[-140px]"}`}>
+                <ul className={`bg-indigo-950 w-full md:w-0  text-center py-2 md:flex justify-center md:static absolute duration-500 ease-in ${open ? 'top-12' : "top-[-140px]"}`}>
                     {
                         routes.map(route => <Link key={route.id} route={route}></Link>)
 
@@ -43,7 +43,7 @@ const BottomHeader = () => {
 
                 </ul>
                 <div className='flex'>
-                    <div className='bg-orange-500 h-16 px-6 text-white font-semibold flex items-center'>
+                    <div className='bg-amber-500 h-16 px-6 text-white font-semibold flex items-center'>
                         <FontAwesomeIcon icon={faPhoneVolume} className='w-8 h-8 mr-3' />
                         <div>
                             <p>Call To Expert</p>

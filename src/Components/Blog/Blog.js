@@ -38,7 +38,7 @@ const Blog = () => {
                     <p className='text-gray-800 text-center mx-60'>Aenean purus esse habitant facilisi rhoncus metus aut sodales voluptas veniam aute, incidunt semper iusto? Praesent! Lobortis? Tellus ipsa. Laborum. Platea, nec! Ullam repellat aenean feugiat, tempor.</p>
                 </div>
 
-                <div className=' flex justify-center my-16 '>
+                <div className=' flex justify-between my-16 '>
 
                     {
                         BlogCardDatas.map(BlogCardData => <BlogCard key={BlogCardData.id} BlogCardData={BlogCardData}></BlogCard>)

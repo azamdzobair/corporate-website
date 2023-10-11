@@ -6,31 +6,31 @@ import img02 from '../../image/img02.jpg';
 
 const Exprience = () => {
     return (
-        <div className='bg-gray-900 bg-opacity-75 flex justify-center  w-full h-[550px] mt-16 '>
+        <div className='bg-gray-900 bg-opacity-75 flex justify-center  w-full h-[550px] mt-24 '>
 
             {/* <img className='mr-6 relative' src={img07} /> */}
 
             <div className='  flex items-center  mx-auto px-24 '>
                 <div className='w-1/2 '>
                     <div className='flex mb-4'>
-                        <div className='bg-orange-500 w-56 h-56 flex items-center mr-4 '>
+                        <div className='bg-amber-500 w-56 h-56 flex items-center mr-4 '>
                             <div className='text-center'>
                                 <FontAwesomeIcon className='text-6xl text-white' icon={faUserGraduate} />
                                 <h1 className='text-2xl font-bold text-white'>Our Expertise Is Earned Through Our Experience</h1>
                             </div>
                         </div>
 
-                        <div className='bg-orange-500 w-56 h-56 flex items-center '>
+                        <div className='bg-amber-500 w-56 h-56 flex items-center '>
                             <img src={img02} />
                         </div>
                     </div>
 
                     <div className='flex'>
-                        <div className='bg-orange-500 w-56 h-56 flex items-center mr-4 '>
+                        <div className='bg-amber-500 w-56 h-56 flex items-center mr-4 '>
                             <img src={img02} />
                         </div>
 
-                        <div className='bg-orange-500 w-56 h-56 flex items-center '>
+                        <div className='bg-amber-500 w-56 h-56 flex items-center '>
                             <div className='text-center'>
                                 <FontAwesomeIcon className='text-6xl text-white' icon={faIdCardClip} />
 
