@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 const About = () => {
     return (
-        <div className='mt-24 '>
+        <div className='mt-24'>
             <div className='mx-auto px-24'>
                 <div>
                     <h1 className=' text-4xl text-center font-bold mb-5 text-gray-800'>Introduction About Our Business Firm </h1>

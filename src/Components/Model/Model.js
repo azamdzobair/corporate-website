@@ -12,7 +12,7 @@ const Model = () => {
 
     return (
         <div>
-            <div onClick={() => setOpenModel(true)} className='h-16 w-16 bg-amber-600 flex justify-center items-center'>
+            <div onClick={() => setOpenModel(true)} className='h-14 w-14 bg-amber-600 flex justify-center items-center'>
                 <FontAwesomeIcon icon={faBars} className='w-7 h-7' />
             </div>
 

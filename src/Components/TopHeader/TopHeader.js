@@ -6,7 +6,7 @@ import React from 'react';
 
 const TopHeader = () => {
     return (
-        <div className='w-full h-11 bg-indigo-900'>
+        <div className=' hidden w-full h-11 bg-indigo-900'>
             <div className=' mx-auto px-24 flex justify-between'>
                 <div className='flex items-center'>
                     <p className='mr-4 text-white hover:text-amber-500'>Need Free Service?</p>
@@ -25,7 +25,7 @@ const TopHeader = () => {
                             <FontAwesomeIcon className='mr-5 hover:text-amber-500' icon={faTwitter} />
                             <FontAwesomeIcon className='mr-5 hover:text-amber-500' icon={faSquareInstagram} />
                             <FontAwesomeIcon className='mr-5 hover:text-amber-500' icon={faYoutube} />
-                            <FontAwesomeIcon className=' hover:text-amber-500' icon={faLinkedin} />
+                            <FontAwesomeIcon className='hover:text-amber-500' icon={faLinkedin} />
                         </div>
                     </div>
 

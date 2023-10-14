@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import UseFullLinks from './UseFullLinks';
 import Resources from './Resources';
 import img from '../../image/img.jpg';
@@ -6,10 +6,13 @@ import logo1 from '../../logo1.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faInstagram, faYoutube, } from '@fortawesome/free-brands-svg-icons';
 import { faPhone, faLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faXmark, faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
+import Model from '../Model/Model';
+import logo from '../../image/logo.png';
 
 
 const Footer = () => {
-
+    const [open, setOpen] = useState(false);
     const Datas = [
         {
             id: 1,
@@ -41,8 +44,8 @@ const Footer = () => {
     ];
 
     return (
-        <div className='mt-24'>
-            <div className='bg-indigo-950 w-full  '>
+        <div className=''>
+            {/* <div className='bg-indigo-950 w-full  '>
                 <div className='flex items-center mx-auto px-24 p-16'>
                     <div className='bg-amber-500 w-80 h-80 p-8 mr-14'>
                         <img className='w-24 h-20' src={logo1} />
@@ -116,7 +119,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
             {/* <div className='mt-20 relative h-[450px]'>
 
                 <div className='w-full h-[450px] bg-black bg-opacity-50 absolute'>
@@ -128,11 +131,56 @@ const Footer = () => {
                 <img className='w-full h-full ' src={img} />
             </div> */}
 
-            <div className='text-white text-center text-lg  bg-indigo-900 w-full'>
+            {/* <div className='text-white text-center text-lg  bg-indigo-900 w-full'>
                 <p >CopyRight@ all right goes here</p>
-            </div>
+            </div> */}
+
+            {/* <div className='bg-blue-500  relative h-14'>
+                <div className='container mx-auto px-6  flex items-center justify-between'>
+                    <a className='text-2xl font-bold text-white ' href='#'>AZADI</a>
 
 
+
+                    <nav className=''>
+                        <div onClick={() => setOpen(!open)} className='sm:hidden' >
+                            {
+                                open ? <FontAwesomeIcon icon={faXmark} className='w-7 h-7' />
+
+                                    : <FontAwesomeIcon icon={faBars} className='w-7 h-7' />
+                            }
+                        </div>
+
+
+                        <div className={`absolute bg-blue-700 w-full  top-10 right-0 p-4 text-center duration-500 ease-in ${open ? 'top-14' : 'hidden'} sm:h-14 sm:block sm:relative sm:top-0 sm:flex sm:items-center  `}>
+
+                            <li className='mb-1 list-none sm:mb:0  '><a className='text-white font-semibold hover:text-red-500' href=''>Home</a></li>
+                            <li className='mb-1 list-none sm:mb:0 sm:ml-6'><a className='text-white font-semibold hover:text-red-500' href=''>About Us</a></li>
+                            <li className='mb-1 list-none sm:mb:0 sm:ml-6'><a className='text-white font-semibold hover:text-red-500' href=''>Service</a></li>
+                            <li className='mb-1 list-none sm:mb:0 sm:ml-6'><a className='text-white font-semibold hover:text-red-500' href=''>Members</a></li>
+                            <li className='mb-1 list-none sm:mb:0 sm:ml-6'><a className='text-white font-semibold hover:text-red-500' href=''>Blog</a></li>
+                            <li className='mb-1 list-none sm:mb:0 sm:ml-6'><a className='text-white font-semibold hover:text-red-500' href=''>Contact</a></li>
+
+
+                        </div>
+                    </nav>
+                    <div className='flex'>
+                        <div className='bg-amber-500 h-14 px-2 text-sm text-white font-mediuum flex items-center'>
+                            <div>
+                                <FontAwesomeIcon icon={faPhoneVolume} className='w-6 h-6 mr-2' />
+                            </div>
+                            <div>
+                                <p>Call To Expert</p>
+                                <p>+111 222 777</p>
+                            </div>
+                        </div>
+                        <div >
+
+                            <Model></Model>
+
+                        </div>
+                    </div>
+                </div>
+            </div> */}
         </div>
     );
 };
