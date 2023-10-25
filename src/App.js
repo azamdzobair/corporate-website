@@ -12,7 +12,7 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className=''>
-      {/* <TopHeader></TopHeader> */}
+      <TopHeader></TopHeader>
       <BottomHeader></BottomHeader>
       <BannerHeader></BannerHeader>
       <About></About>

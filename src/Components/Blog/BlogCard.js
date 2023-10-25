@@ -2,9 +2,11 @@ import React from 'react';
 
 const BlogCard = ({ BlogCardData }) => {
     return (
-        <div className=' w-80 mb-10'>
-            <div>
+        <div className=' md:w-80 mb-10'>
+            <div className=''>
+
                 <img className='mb-4' src={BlogCardData.img} />
+
 
                 <button>Details
                 </button>

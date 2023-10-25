@@ -17,7 +17,7 @@ const ServiceDetails = () => {
 
 
 
-        <div className='flex mt-14'>
+        <div className='  md:flex mt-14'>
             {
                 cardDatas.map(cardData =>
 
