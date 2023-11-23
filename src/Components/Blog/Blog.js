@@ -14,19 +14,19 @@ const Blog = () => {
             id: 1,
             img: '../../img/img11.jpg',
             title: "Govt Certified",
-            des: "Lorem ipsum dolor sit amet consectetur adipisicing .",
+            des: "Lorem ipsum dolor sit amet consectetur  .",
         },
         {
             id: 2,
             img: 'img/img12.jpg',
             title: "Exper Counsellor",
-            des: "Lorem ipsum dolor sit amet consectetur adipisicing ",
+            des: "Lorem ipsum dolor sit amet consectetur ",
         },
         {
             id: 3,
             img: 'img/img13.jpg',
             title: "Affordable Price",
-            des: "Lorem ipsum dolor sit amet consectetur adipisicing ",
+            des: "Lorem ipsum dolor sit amet consectetur  ",
         },
 
     ];
@@ -38,7 +38,7 @@ const Blog = () => {
                     <p className='text-gray-800 text-center md:mx-60'>Aenean purus esse habitant facilisi rhoncus metus aut sodales voluptas veniam aute, incidunt semper iusto? Praesent! Lobortis? Tellus ipsa. Laborum. Platea, nec! Ullam repellat aenean feugiat, tempor.</p>
                 </div>
 
-                <div className=' md:flex justify-between my-12 md:my-16 '>
+                <div className=' sm:flex md:flex justify-between my-12 sm:my-16 md:my-16 '>
 
                     {
                         BlogCardDatas.map(BlogCardData => <BlogCard key={BlogCardData.id} BlogCardData={BlogCardData}></BlogCard>)

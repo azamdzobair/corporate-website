@@ -7,12 +7,12 @@ import ProgressBarOne from '../ProgressBar/ProgressBarOne';
 
 const Hire = () => {
     return (
-        <div className='w-full mt-14 sm:flex md:flex'>
+        <div className='w-full mt-14 sm:mt-24 md:mt-24 sm:flex md:flex'>
 
             <div className=' w-full sm:w-1/2 md:w-1/2  '>
                 <div className='relative'>
 
-                    <div className=' bg-gray-900 bg-opacity-50 w-full h-[480px]  absolute py-12 px-6'>
+                    <div className=' bg-gray-900 bg-opacity-50 w-full h-[480px]  absolute py-12 px-6 sm:pl-24 md:pl-24'>
                         <div className='mb-6 text-white'>
                             <h1 className='text-3xl  font-bold mb-3'>Hire Us For  Business Related Services !</h1>
                             <p>Hic voluptatibus asperiores animi vero. Felis ipsum. Gravida aspernatur adipisci mus adipisci ipsam etiam, repellendus aptent aliquam quas, aptent ab curabitu.</p>
@@ -49,27 +49,10 @@ const Hire = () => {
             </div>
             <div className=' w-full relative sm:w-1/2 md:w-1/2 flex items-center '>
 
-                <div className=' absolute '>
+                <div className=' absolute bg-amber-500 bg-opacity-50 w-72 h-72 flex justify-center items-center '>
                     <ProgressBarOne></ProgressBarOne>
 
-                    {/* <div className='w-72 h-72 bg-amber-500 flex items-center justify-center'>
-                        <div className='fill-none border-[30px] border-white w-60 h-60 rounded-full transition-all flex items-center justify-center '>
-                            <h1 className='text-white text-5xl font-bold'>0%</h1>
-                            <div className='w-52 h-52 absolute z-10 rounded-full bg-amber-500'></div>
-                            <div className=' flex items-center justify-center'>
-                                <div className='w-60 h-60 bg-white absolute rounded-full '>
-                                    <div className='progrss'>
 
-                                    </div>
-                                </div>
-                                <div className='w-60 h-60 bg-white absolute rounded-full '>
-                                    <div className='progrss'>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
                 <img className='h-[480px] ' src={img08} />
 

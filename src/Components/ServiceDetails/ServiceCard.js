@@ -8,7 +8,7 @@ const ServiceCard = ({ cardData }) => {
 
 
 
-            <div className='mb-4 text-center  bg-amber-600 md:ml-4 p-4' >
+            <div className='mb-4 text-center bg-amber-600 md:ml-4 p-4 hover::before:border-solid border-r-4 border-sky-500' >
                 <div className='flex justify-center'>
                     <img className='w-16 h-16  ' src={cardData.icon} />
                 </div>
