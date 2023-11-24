@@ -46,7 +46,7 @@ const Footer = () => {
     ];
 
     return (
-        <div className='bg-indigo-950  w-full mt-14 md:mt-24 '>
+        <div id='contact' className='bg-indigo-950  w-full mt-14 md:mt-24 '>
             <div className=' flex justify-center  '>
                 <div className='md:flex items-center mx-auto px-6 md:px-24 p-16'>
                     <div className='bg-amber-500 w-80 h-80 p-8 md:mr-14'>

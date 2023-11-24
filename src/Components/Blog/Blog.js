@@ -31,7 +31,7 @@ const Blog = () => {
 
     ];
     return (
-        <div className='mt-14 md:mt-24'>
+        <div id='blog' className='mt-14 md:mt-24'>
             <div className='mx-auto px-6 md:px-24'>
                 <div>
                     <h1 className='text-gray-800 text-2xl md:text-4xl text-center font-bold mb-5'>Introduction About Our Blog </h1>

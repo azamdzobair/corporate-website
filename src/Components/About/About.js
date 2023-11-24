@@ -9,7 +9,7 @@ import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import Hire from './Hire';
 const About = () => {
     return (
-        <div className='mt-14 md:mt-24 sm:mt-24'>
+        <div id='about' className='mt-14 md:mt-24 sm:mt-24'>
             <div className='mx-auto px-6 sm:px-24 md:px-24'>
                 <div>
                     <h1 className='text-2xl text-center font-bold mb-5 text-gray-800 md:text-4xl sm:text-4xl'>Introduction About Our Business  </h1>

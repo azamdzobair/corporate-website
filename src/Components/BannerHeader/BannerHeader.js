@@ -6,7 +6,7 @@ import Banner from '../../image/Banner.jpg';
 
 const BannerHeader = () => {
     return (
-        <div className='relative h-[1500px] sm:h-[950px] md:h-[950px]'>
+        <div id='home' className='relative h-[1500px] sm:h-[950px] md:h-[950px]'>
             <div className='bg-black bg-opacity-50 h-[1500px] w-full absolute sm:h-[950px] md:h-[950px]' >
 
                 <div className='mx-auto px-6 mt-14 sm:px-24 sm:mt-20 md:px-24 md:mt-20'>
